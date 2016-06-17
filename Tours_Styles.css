@@ -1,0 +1,73 @@
+/*
+
+Cliff Hangers Website
+	Project 2
+Tours Add. Stylesheet
+
+Name: Tin Buzancic
+Date: 4/15/14
+
+*/
+
+body {
+	background-image: url("Assets/background6.png");
+	background-size: cover;
+}
+
+p {
+	text-align: center;
+}
+
+section article {
+	padding: 20px 20px 20px 20px;
+}
+
+#tourp {
+	font-style: italic;
+}
+
+/* Table Styles */
+
+#tablearticle {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+table.tourspots {
+	color: white;
+	border: solid;
+}
+
+table.tourspots caption {
+	caption-side: top;
+	text-align: center;
+	font-size: 1.3em;
+	margin-bottom: 10px;
+}
+
+table.tourspots  thead {
+	font-size: 1.1em;
+	color: yellow;
+	padding-top: 10px;
+	margin-bottom: 50px;
+	
+}
+table.tourspots tbody tr td {
+	vertical-align: top;
+	padding: 10px 10px 10px 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+table.tourspots tbody tr th {
+	vertical-align: top;
+	padding: 10px 10px 10px 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+table.tourspots {
+	border: solid 2px white;
+	border-collapse: collapse;
+	font-family: Arial, Verdana, sans-serif;
+}

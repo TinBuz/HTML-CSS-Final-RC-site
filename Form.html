@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+	Comment: Project 2 Form.html
+	Name: Tin Buzancic 
+	Date: 4/20/14
+-->
+
+<head>
+	<meta charset="UTF-8" />
+	<title>CH - Application</title>
+	<script src="Assets/modernizr-1.5.js"></script>
+	<script src="Assets/formsubmit.js"></script>
+	<link href="chbase.css" rel="stylesheet" type="text/css"/>
+	<link href="Form_Styles.css" rel="stylesheet" type="text/css"/>
+</head>
+	
+<body>
+	<header>
+		<h1><img src="Assets/chlogo.png" alt="chologo" id="chlogo"></h1>
+	</header>
+	
+	<Nav id="NextNav">
+		<ul>
+			<li><a href="Index.html">Home</a></li>
+			<li><a href="Aboutus.html">About Us</a></li>
+			<li><a href="tours.html">Tours</a></li>
+			<li><a href="lessons.html">Lessons</a></li>
+			<li><a href="staff.html">Staff</a></li>
+			<li><a href="form.html">Form</a></li>
+		</ul>
+	</Nav>
+			<h2>Survey Form</h2>
+	<section>
+		<article>
+
+	<!-- BEGINNING OF THE FORM -->
+
+				<p id="surveytop">
+				Contact us today for more information about Cliff Hangers and to schedule a tour. 
+				Required information is indicated by an asterisk (*). 
+				</p>
+				
+				<fieldset>
+					<form id="chform" name="chform"
+						action="www.cliffhangerschool.com/survey" method="post">
+							
+						<fieldset>				
+						<legend>General Information</legend>
+							<br/>
+							<label for="custName">Name *</label>
+							<input name="custName" id="custName" placeholder="First and Last Name" required="required"/>
+							
+							
+							<label for="email">E-mail Address *</label>
+							<input name="email" id="email" type="email" required="required"/>
+						</fieldset>
+						
+						<fieldset class="infoSrc">
+							<p>Where did you hear about us?(select all the apply)</p>
+						
+							<label for="internet">Internet</label>
+							<input type="checkbox" name="internet" id="internet"/>
+
+							<label for="magazine">Magazine</label>
+							<input type="checkbox" name="magazine" id="magazine"/>
+						
+							<label for="newspaper">Newspaper</label>
+							<input type="checkbox" name="newspaper" id="newspaper"/>
+						
+							<label for="wom">Word of Mouth</label>
+							<input type="checkbox" name="wom" id="wom"/>
+						
+							<label for="other">Other</label>
+							<input type="checkbox" name="other" id="other"/>
+						</fieldset>
+						
+						<br/>
+					
+						<fieldset>
+							<label for="experience">How many years have you been climbing?</label>
+							<input name="experience" id="experience" type="number" value="1" min="0" max="10" step="1"/>
+						</fieldset>
+					
+						<fieldset class="custType">
+							<label>Climbing interest</label>
+								<fieldset class="optionGroup">
+									<label for="TOnly">Tours Only</label>
+									<input type="radio" name="toursonly" id="TOnly" value="yours"/>
+								
+									<label for="LOnly">Lesson Only</label>
+									<input type="radio" name="lessonsonly" id="LOnly" value="lessons"/>
+								
+									<label for="Both">Both Tours and Lessons</label>
+									<input type="radio" name="BothTL" id="Both" value="Both"/>
+								</fieldset>
+						</fieldset>
+
+						<fieldset>
+						<label for="interest">I'm intered in: </label>
+						<select name="interest" id="interest">
+							<option value="Beginnerskills">Beginner Skills</option>
+							<option value="Intermediateskills">Intermediate Skills</option>
+							<option value="Advancedskills">Advanced Skills</option>
+							<option value="Aidclimbing">Aid Climbing</option>
+							<option value="Iceclimbing">Ice Climbing</option>
+						</select>
+						</fieldset>
+
+						<fieldset>
+						<label for="comments">Tell us about your climbing goals.</label>
+						<textarea name="comments" id="comments"></textarea>
+						</fieldset>
+
+						<input type="checkbox" name="elist" id="elist"/>
+						<label for="elist">Please add me to the Cliff Hangers e-mail list.</label>
+						
+						<p>
+						<input type="submit" Value="Next" id="next"/>
+						</p>
+
+					</form>			
+			</fieldset>
+		</article>
+	</section>
+</body>
+
+</html>

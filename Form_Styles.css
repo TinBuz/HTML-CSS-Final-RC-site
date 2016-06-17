@@ -1,0 +1,105 @@
+/*
+
+Cliff Hangers Website
+	Project 2
+Form Add. Stylesheet
+
+Name: Tin Buzancic
+Date: 4/20/14
+
+*/
+
+body {
+	background-image: url("Assets/background4.png");
+	background-size: cover;
+}
+
+h2 {
+	margin-top: -70px;
+}
+
+#NextNav {
+	margin-top: 53px;
+}
+
+form {
+	color: white;
+}
+
+legend {
+	font-size: 22px;
+}
+
+/*  
+
+CHECKBOX STYLES 
+LINE 38-81 ARE MAIN FORM STYLES 
+
+*/
+
+fieldset.infoSrc, fieldset.interest {
+	display: block;
+}
+
+fieldset {
+ border: none;
+}
+
+textarea {
+	height: 150px;
+	width: 250px;
+}
+
+input, textarea {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-shadow: rgb(0,0,0) 5px 5px 20px;
+}
+
+textarea{
+	margin-bottom: 20px;
+}
+
+input {
+	margin-left: 130px;
+	margin-top: -20px;  
+}
+
+#TOnly, #LOnly, #Both {
+	display: block;
+	margin-left: 165px;	
+}
+
+#elist {
+	display:block;
+	float: left;
+	margin-left: 12px;
+	margin-top: 5px;
+}
+
+#experience {
+	margin-left: 270px;
+}
+
+form p {
+	text-shadow: rgb(0,0,0) 5px 5px 20px;
+	color: rgb(202,170,173);
+}
+
+/* FORM PARAGRAPH STLYE */
+
+#surveytop {
+	text-align: center;
+	font-style: italic;
+	
+}
+
+/* BUTTON STYLE */
+
+#next {
+	display: block;
+	float: left;
+	margin-top: 20px;
+	margin-left: 330px;
+}

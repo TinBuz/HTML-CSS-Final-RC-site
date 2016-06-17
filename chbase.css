@@ -1,0 +1,171 @@
+/*
+
+Cliff Hangers Website
+	Project 2
+Main Stylesheet
+
+Name: Tin Buzancic
+Date: 4/15/14
+
+*/
+
+/* HEADER STYLES */
+
+#chlogo {
+	background-color: rgba(100,50,10,.5);
+	background: linear-gradient(rgba(80,50,10,.5) 15%, white);
+	margin-left: 155px;
+	padding-top: 15px;
+	height: 70%;
+	width: 75%;
+	box-shadow: rgb(0,0,0) 5px 5px 30px;
+}
+
+h2{
+	text-align: center;
+	background-color: rgba(100,50,10,.7);
+	background: linear-gradient(rgba(100,50,10,.7) 15%, black);
+	box-shadow: rgb(0,0,0) 5px 5px 15px;
+	padding-bottom: 10px;
+	font-size: 40px;
+	color: white;
+	letter-spacing: 5px;
+}
+
+/* BODY STYLES */
+
+body * {
+	font-family: serif, sans-serif;
+}
+
+body {
+	margin: 0px auto;
+	padding: 0px;
+	width: 98%;
+	max-width: 1000px;
+	min-width: 1000px;
+}
+
+body {
+	background-image: url("Assets/background3.png");
+	background-size: cover;
+}
+
+body {
+	-moz-box-shadow:  rgba(0,0,0,0.3) -5px -5px 10px;
+	-webkit-box-shadow:  rgba(0,0,0,0.3) -5px -5px 10px;
+	box-shadow: rgba(0,0,0,0.3) -5px -5px 10px;
+}
+
+
+/* NAVIGATION STYLES */
+
+#NextNav {
+	margin-top: -45px;
+	margin-bottom: 100px;
+}
+
+#NextNav ul  {
+	width: 130px;
+	text-align: center;
+	float: left;
+}
+
+#NextNav ul {
+	background-color: rgba(100,50,10,.7);
+	background: linear-gradient(rgba(100,50,10,.7) 15%, black);
+	line-height: 3em;
+	list-style-type: none;
+	margin-top: 68px;
+	padding-left: 0px;
+	padding-right: 7px;
+	text-indent: 10px;	
+	box-shadow: rgba(0,0,0,0.7) 5px 5px 20px;
+}
+
+#NextNav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+#NextNav ul li a:hover {
+	color: rgb(202,170,173);
+}
+
+#NextNav ul li {
+	font-size: 150%;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+/* ARTICLE STYLES */
+
+section article {
+	background-color: rgba(100,50,10,0.8);
+	background: linear-gradient(black 15%, rgba(100,50,10,.7) 125%);
+	margin-top: 30px;
+	margin-left: 150px;
+	margin-right: 100px;
+	padding: 5px 10px 5px 15px;
+}
+
+section article {
+	box-shadow: inset rgb(0,0,0) 1px 1px 10px;
+	box-shadow: inset rgb(0,0,0) -1px -1px 10px;
+}
+
+section article p {
+	font-size: 21px;
+	color: white;
+	
+}
+
+section article ul {
+	font-size: 21px;
+	color: white;
+	
+}
+
+/* PARAGRAPH STYLES */
+
+#p1, #contact {
+	text-align: center;
+	font-size: 21px;
+	font-style: italic;
+}
+
+/* FIGURE STYLES */
+
+#photo6 {
+	border-radius: 10px;
+	height: 50%;
+	width: 50%;
+	box-shadow: rgb(0,0,0) 5px 5px 20px;
+	margin-left: 255px;
+	margin-top: 30px;
+}
+
+#imagescroll, #imagescrolltwo {
+	width: 98%;
+	height: 350px;
+	overflow: auto;
+	white-space: nowrap;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+	
+#imagescroll img, #imagescrolltwo img{
+	margin: 5px;
+	box-shadow: rgba(0,0,0,0.7) 5px 5px 5px;
+}
+
+#imagescrolltwo {
+	display: block;
+	float: left;
+	width: 49.2%;
+	background-color: black;
+	padding: 25px 25px 10px 25px;
+	margin-left: 160px;
+	margin-top: -622px;
+	box-shadow: rgba(0,0,0,0.7) 1px 1px 1px;
+}

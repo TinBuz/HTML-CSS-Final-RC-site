@@ -1,0 +1,74 @@
+/*
+
+Cliff Hangers Website
+	Project 2
+About Us Add. Stylesheet
+
+Name: Tin Buzancic
+Date: 4/15/14
+
+*/
+
+#intro, #inter, #aid, #ice {
+	text-align: left;
+	font-size: 25px;
+}
+
+section article{
+	margin-right: 295px;
+	margin-left: 158px;
+	display: block;
+	float: left;
+	
+}
+
+body {
+	background-image: url("Assets/background4.png");
+	background-size: cover;
+}
+
+/* LESSON STYLES */
+
+#introart {
+	margin-top: -204px;
+}
+
+#interart, #inter {
+	background-color: rgba(100,50,10,0.8);
+	background: linear-gradient(black 30%, rgba(100,50,10,.7) 200%);
+}
+
+#iceart, #ice {
+	background-color: rgba(100,50,10,0.8);
+	background: linear-gradient(black 45%, blue 170%);	
+}
+
+#aidart, #aid {
+	background-color: rgba(100,50,10,0.8);
+	background: linear-gradient(black 45%, green 120%);		
+}
+
+#lessonintro {
+	display: block;
+	float: right;
+	width: 18%;
+	margin-top: -55px;
+	margin-right: 50px;
+}
+
+#lessonintro p, #warning p {
+	font-size: 17px;
+}
+
+#warning {
+	display: block;
+	float: right;
+	width: 18%;
+	margin-top: 420px;
+	margin-right: -363px;
+}
+
+#warning {
+	background-color: rgba(100,50,10,0.8);
+	background: linear-gradient(black 25%, red 125%);
+}
